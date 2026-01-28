@@ -8,14 +8,14 @@ use wallet::walletconnect;
 
 fn main() {
 
-    // let test = generate_seed_phrase();
+    let seed = generate_seed_phrase();
 
     // wallet::walletconnect();
-    println!("wallet connected successfully{:?}", walletconnect());
+    // println!("wallet connected successfully{:?}", walletconnect());
 
-    // let passphrase = Some("");
+    let passphrase = Some("");
 
-    // let seed = generate_seed_and_seedphrase_by_wordcount(15,passphrase );
-    // println!(" {:?}", seed)
-    println!("{:?}",walletconnect())
+    // let seed = generate_seed_and_seedphrase_by_wordcount(12,passphrase );
+    println!(" {:?}", seed)
+    // println!("{:?}",walletconnect())
 }
